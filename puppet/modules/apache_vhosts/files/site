@@ -3,13 +3,13 @@
     ServerName businesssorter.local
     ServerAlias www.businesssorter.local
 
-    DocumentRoot /var/www/site/public
+    DocumentRoot /var/www/site
     DirectoryIndex index.php
     <Directory />
         Options FollowSymLinks
         AllowOverride None
     </Directory>
-    <Directory /var/www/site/public>
+    <Directory /var/www/site>
         Options Indexes FollowSymLinks MultiViews
         AllowOverride All
         Order allow,deny
